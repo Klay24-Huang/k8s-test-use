@@ -15,6 +15,6 @@ spec:
       containers: 
       - name: hello-world 
         image: sean200365/myexpress    # image we pushed
-        imagePullPolicy: Never
+        imagePullPolicy: Always
         ports:
         - containerPort: 3000
